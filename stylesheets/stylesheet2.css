@@ -1,0 +1,275 @@
+.body {
+    background-color: #f5f5f5;
+}
+
+.header {
+    border-bottom: 1px solid #f5f5f5;
+    min-height: 45px;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px 0px 10px;
+}
+
+.header select {
+    float: right;
+}
+
+.navBarMain {
+    display: block;
+    box-sizing: border-box;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    color: #555;
+    font-size: 12px;
+    padding: 20px 0px 20px;
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+}
+
+.navBarLeft i {
+    font-size: 20px;
+}
+
+.navBarLeft a img {
+    padding-left: 10px;
+}
+
+.navBarRight ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navBarRight li {
+    float: left;
+}
+
+.navBarRight li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+.navBarCentre {
+    padding-top: 3px;
+}
+
+.navBarCentre input {
+    width: 90%;
+    height: 40px;
+    color: grey;
+    border: none;
+}
+
+.navBarCentre button {
+    height: 40px;
+    background-color: orange;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navBarRight {
+    margin-left: -20px;
+}
+
+.selectedProduct {
+    font-size: 12px;
+}
+
+.selectedProduct ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.selectedProduct li {
+    float: left;
+}
+
+.selectedProduct li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+.currentLocation {
+    font-weight: 650;
+}
+
+.areaMain {
+    margin-top: 40px;
+    padding: 10px 0px 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.smallImage{
+    margin-top: 180px;
+}
+
+.smallImage img {
+    width: 80px;
+}
+
+.largeImage img {
+    width: 320px;
+    height: 360px;
+}
+
+.company{
+    font-size: 14px;
+}
+
+.name{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.price{
+    font-size: 14px;
+}
+
+.productDetailsHeading{
+    font-weight: 600;
+}
+
+.productDetailsDetail{
+    font-weight: 500;
+}
+
+.productName{
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.actionCarStars{
+    font-size: 12px;
+}
+
+.discount{
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.priceAndButton{
+    margin-top: 30px;
+}
+
+.productPrice{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.productDiscount{
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+.productDiscountPercentage{
+    border: 2px solid orange;
+    padding: 0.5px;
+}
+
+.buyNowButton a button {
+    height: 40px;
+    width: 170px;
+    background-color: orange;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.priceAndButton ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.priceAndButton li {
+    float: left;
+}
+
+.priceAndButton li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+.areaRight ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.areaRight li a {
+    font-weight: 700;
+    font-size: 16px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 8px 8px;
+}
+
+.areaRight li a img {
+    width: 100%;
+    height: 105px;
+}
+
+.firstBox{
+    padding: 10px 0px 0px 20px;
+    border: 1px solid black;
+    width: 100%;
+    height: 42%;
+}
+
+.secondBox{
+    border: 1px solid black;
+    margin-top: 12px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.sellerName{
+    font-weight: 700;
+}
+
+.sellerReview{
+    background-color: orange;
+    margin: 10px;
+    padding: 2px;
+    color: white;
+    font-weight: 500;
+}
+
+.itemsSold{
+    font-weight: 700;
+}
+
+.delivery{
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.warranty{
+    font-weight: 200;
+    font-size: 14px;
+}
